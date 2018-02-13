@@ -79,12 +79,3 @@ src
 ```
 (myenv) Tongs-MBP:insight_testsuite tongliu$ ./run_tests.sh
 ```
-`
-Line 1 is invalid.
-
-[PASS]: test_1 repeat_donors.txt
-
-[PASS]: test_2 repeat_donors.txt
-
-[Mon Feb 12 18:47:31 EST 2018] 2 of 2 tests passed
-`
