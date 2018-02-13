@@ -70,7 +70,7 @@ From https://github.com/InsightDataScience/donation-analytics/blob/master/README
 
 The output of `run_tests.sh` should look like the following:
 ```
-Line 1 is invalid.
+Line 1 in input/itcont.txt is invalid.
 [PASS]: test_1 repeat_donors.txt
 [PASS]: test_2 repeat_donors.txt
 [Mon Feb 12 18:47:31 EST 2018] 2 of 2 tests passed
