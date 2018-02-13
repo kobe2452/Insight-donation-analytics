@@ -25,6 +25,7 @@ def find_repeat_donors(INDIV_Data_Headers):
                 TransactionYear = TransactionDate[4:]
                 donor_dict[DonorId].append(int(TransactionYear))
 
+                # Reference: https://stackoverflow.com/a/39537308/2709595
                 target = TransactionYear + '_' + CmetId + '_' + ZipCode
                 recipient_dict[target].append(int(TransactionAmount))
 
