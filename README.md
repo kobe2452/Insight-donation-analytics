@@ -5,14 +5,14 @@ Solution to https://github.com/InsightDataScience/donation-analytics
 ## Set up prerequisites
 My solution is written in **Python3** (3.6.4) with **Numpy** (1.14.0).
 
-Create and activate a virtual environment with **Python3**:
+Once you clone my repo, please create and activate a virtual environment with **Python3**:
 ```
 python3 -m venv myenv
 source myenv/bin/activate
 ```
 And then install the dependencies:
 ```
-pip install -r requirements.txt
+(myenv) Insight-donation-analytics~$ pip install -r requirements.txt
 ```
 Now, you are good to test my submission.
 
