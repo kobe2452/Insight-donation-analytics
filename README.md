@@ -5,7 +5,7 @@ Solution to https://github.com/InsightDataScience/donation-analytics
 ## Set up prerequisites
 My solution is written in **Python3** (3.6.4) with **Numpy** (1.14.0).
 
-Create and activate a virtual environment with Python3:
+Create and activate a virtual environment with **Python3**:
 ```
 python3 -m venv myenv
 source myenv/bin/activate
@@ -31,20 +31,23 @@ The submission directory structure is:
     ├── output
     |   └── repeat_donors.txt
     ├── insight_testsuite
-        └── run_tests.sh
-        └── tests
-            └── test_1
-            |   ├── input
-            |   │   └── percentile.txt
-            |   │   └── itcont.txt
-            |   |__ output
-            |   │   └── repeat_donors.txt
-            └── test_2
-                ├── input
-                │   └── percentile.txt
-                │   └── itcont.txt
-                |__ output
-                    └── repeat_donors.txt
+    |    └── run_tests.sh
+    |    └── tests
+    |        └── test_1
+    |        |   ├── input
+    |        |   │   └── percentile.txt
+    |        |   │   └── itcont.txt
+    |        |   |__ output
+    |        |   │   └── repeat_donors.txt
+    |        └── test_2
+    |            ├── input
+    |            │   └── percentile.txt
+    |            │   └── itcont.txt
+    |            |__ output
+    |                └── repeat_donors.txt
+    ├── .gitignore
+    ├── LICENSE
+    ├── requirements.txt
 
 This shows my submission has the correct directory structure and the correct format of the input/output files.
 
