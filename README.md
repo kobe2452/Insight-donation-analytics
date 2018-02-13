@@ -79,9 +79,9 @@ Line 1 in input/itcont.txt is invalid.
 
 ## Approach brief
 
-1. Utilizing the header information and format (source: `https://classic.fec.gov/finance/disclosure/metadata/indiv_header_file.csv`), I streamed the input lines one by one (not at one time).
+1. Utilizing the header information and format (source: https://classic.fec.gov/finance/disclosure/metadata/indiv_header_file.csv), I streamed the input lines one by one (not at one time).
 
-2. For each line, I checked its validity based on given rules (source: `https://github.com/InsightDataScience/donation-analytics/blob/master/README.md#input-file-considerations`), and then continued with valid lines in extraction and analysis and returned error message for invalid ones.
+2. For each line, I checked its validity based on given rules (source: https://github.com/InsightDataScience/donation-analytics/blob/master/README.md#input-file-considerations), and then continued with valid lines in extraction and analysis and returned error message for invalid ones.
 
 3. For each unique donor, I recorded their transaction years so that obtained the repeat donors with their latest donation year.
 
