@@ -31,27 +31,27 @@ The submission directory structure is:
     ├── output
     |   └── repeat_donors.txt
     ├── insight_testsuite
-    |    └── run_tests.sh
-    |    └── tests
-    |        └── test_1
-    |        |   ├── input
-    |        |   │   └── percentile.txt
-    |        |   │   └── itcont.txt
-    |        |   |__ output
-    |        |   │   └── repeat_donors.txt
-    |        └── test_2
-    |            ├── input
-    |            │   └── percentile.txt
-    |            │   └── itcont.txt
-    |            |__ output
-    |                └── repeat_donors.txt
+    |   └── run_tests.sh
+    |   └── tests
+    |       └── test_1
+    |       |   ├── input
+    |       |   │   └── percentile.txt
+    |       |   │   └── itcont.txt
+    |       |   |__ output
+    |       |   │   └── repeat_donors.txt
+    |       └── test_2
+    |           ├── input
+    |           │   └── percentile.txt
+    |           │   └── itcont.txt
+    |           |__ output
+    |               └── repeat_donors.txt
     ├── .gitignore
     ├── LICENSE
     ├── requirements.txt
 
 This shows my submission has the correct directory structure and the correct format of the input/output files.
 
-#### test_1:
+#### test_1 (default):
 From https://github.com/InsightDataScience/donation-analytics/blob/master/README.md#example
 
 #### test_2:
