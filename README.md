@@ -86,3 +86,5 @@ Line 1 in input/itcont.txt is invalid.
 3. For each unique donor, I recorded their transaction years so that obtained the repeat donors with their latest donation year.
 
 4. For each calendar year found in (3.), recipient and zip code, I retrieved and calculated the running percentile of contributions from repeat donors (reference: https://stackoverflow.com/a/26071170/), the total amount of donations streaming in, and the total number of transactions from repeat donors.
+
+5. Write the extraction and calculation results to `repeat_donors.txt` in the same order as the donation appeared in the input file, thanks to Python 3.6 (reference: https://stackoverflow.com/a/39537308/ and https://docs.python.org/3/whatsnew/3.6.html#whatsnew36-compactdict).
