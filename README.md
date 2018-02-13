@@ -58,24 +58,17 @@ From https://github.com/InsightDataScience/donation-analytics/blob/master/README
 ## Instructions to test
 
 ```
-(myenv) tongs-mbp:Insight-donation-analytics tongliu$ ls
-```
-`LICENSE
-backup
-insight_testsuite
-output
-run.sh
-README.md
-input
-myenv
-requirements.txt
-src
-`
-
-```
-(myenv) tongs-mbp:Insight-donation-analytics tongliu$ cd insight_testsuite/
+(myenv) Insight-donation-analytics~$ cd insight_testsuite/
 ```
 
 ```
-(myenv) Tongs-MBP:insight_testsuite tongliu$ ./run_tests.sh
+(myenv) insight_testsuite~$ ./run_tests.sh
+```
+
+The output of `run_tests.sh` should look like the following:
+```
+Line 1 is invalid.
+[PASS]: test_1 repeat_donors.txt
+[PASS]: test_2 repeat_donors.txt
+[Mon Feb 12 18:47:31 EST 2018] 2 of 2 tests passed
 ```
