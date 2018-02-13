@@ -7,8 +7,8 @@ My solution is written in **Python3** (3.6.4) with **Numpy** (1.14.0).
 
 Once you clone my repo, please create and activate a virtual environment with **Python3**:
 ```
-python3 -m venv myenv
-source myenv/bin/activate
+~$ python3 -m venv myenv
+~$ source myenv/bin/activate
 ```
 And then install the dependencies:
 ```
