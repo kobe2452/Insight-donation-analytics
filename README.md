@@ -49,7 +49,7 @@ The submission directory structure is:
     ├── LICENSE
     ├── requirements.txt
 
-This shows my submission has the correct directory structure and the correct format of the input/output files.
+The test suite contains:
 
 #### test_1 (default):
 From https://github.com/InsightDataScience/donation-analytics/blob/master/README.md#example
