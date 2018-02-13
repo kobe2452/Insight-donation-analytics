@@ -16,7 +16,7 @@ def find_repeat_donors(INDIV_Data_Headers):
         csvreader = csv.reader(csvfile, delimiter='|')
         for index, line in enumerate(csvreader):
             if not check_record_legal(line, INDIV_Data_Headers):
-                print('Line {} is invalid.'.format(index+1))
+                print('Line {} in {} is invalid.'.format(index+1, inputdata))
             else:
                 CmetId, Name, ZipCode, TransactionDate, TransactionAmount, OtherID = extract_fields(line, INDIV_Data_Headers)
                 # Use the combination to identify a unique donor
